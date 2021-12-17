@@ -14,3 +14,9 @@ export const projects = [
     link: 'project/linke/example'
   },
 ];
+
+
+export const skills = 
+[
+  'lorem', 'ipsum', 'lorem', 'ipsum'
+]
