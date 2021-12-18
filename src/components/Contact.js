@@ -41,15 +41,21 @@ function Contact() {
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
             suscipit officia aspernatur veritatis. Asperiores, aliquid</p>
           <div>
-            <label>Name</label>
-            <input></input>
+            <label htmlFor="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"></input>
           </div>
           <div>
-            <label>Emaile</label>
-            <input></input>
+            <label htmlFor="email">Email</label>
+            <input
+              type="text"
+              id="email"
+              name="email"></input>
           </div>
           <div>
-            <label>Message</label>
+            <label htmlFor="message">Message</label>
             <textarea id="message" name="message"></textarea>
           </div>
           <button type="submit">Submit</button>
