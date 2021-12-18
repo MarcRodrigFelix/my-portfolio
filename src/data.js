@@ -18,5 +18,5 @@ export const projects = [
 
 export const skills = 
 [
-  'lorem', 'ipsum', 'lorem', 'ipsum'
+  'Javascript', 'Ruby', 'React', 'Sqlite'
 ]
