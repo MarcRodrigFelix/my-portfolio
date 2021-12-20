@@ -9,13 +9,11 @@ function About() {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Hello, My name is Marcos Rodriguez.
             <br className="hidden lg:inline-block"/>I am a Fullstack Engineer.
           </h1>
-          <p className="mb-8 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?</p>
+          <p className="mb-8 leading-relaxed">I am a full-Stack engineer experienced with Ruby and Javascript. A diligent and efficient problem solver. That is always willing to learn more and go beyond my realm of knowledge. Although I am more than capable of creating Full-Stack apps, I would say that I am much more enthusiastic about Back-End development. Let's connect if you want to learn more about me!</p>
           <div className="flex justify-center">
             <a 
               href='#projects'
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Check out my projects</a>
+              className="inline-flex text-white bg-laurel-green border-0 py-2 px-6 focus:outline-none hover:bg-laurel-green-1 rounded text-lg">Recent Projects</a>
             <a
               href='#contact'
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Hire me / Work together</a>

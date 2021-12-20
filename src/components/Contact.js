@@ -46,31 +46,32 @@ console.log(message)
             src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Carson%20City,%20Nevada+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
-            <div className="lg:w-1/2 px-6">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">ADDRESS</h2>
+            <div className="lg:w-1/2 px-8">
+              <h2 className="title-font font-semibold text-white tracking-widest text-xs">CITY</h2>
               <p className="mt-1">
-                123 Info St. <br />
-                Carson City, NV 12345
+                {/* 123 Info St. <br /> */}
+                Carson City, NV
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">EMAIL</h2>
               <a 
-                href="mailto:"
+                href="mailto:m.rodrig.felix@gmail.com"
                 className="text-indigo-400 leading-relaxed">m.rodrig.felix@gmail.com</a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">PHONE</h2>
-              <p className="leading-relaxed">775-123-5555</p>
+              {/* <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">PHONE</h2> */}
+              {/* <p className="leading-relaxed">775-123-5555</p> */}
             </div>
           </div>
         </div>
         <form 
           netlify="true"
           name="contact"
+          method="post"
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">Hire Me</h2>
-          <p className="leading-relaxed mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid</p>
+          <p className="leading-relaxed mb-5">Feel free to leave me your info so we can work together or if your need to hire a stud engineer.</p>
+          <input type="hidden" name="form-name" value="contact" />
           <div className="relative mb-4">
             <label className="leading-7 text-sm text-gray-400">Name</label>
             <input
@@ -83,7 +84,7 @@ console.log(message)
           <div className="relative mb-4">
             <label className="leading-7 text-sm text-gray-400">Email</label>
             <input
-              type="text"
+              type="email"
               id="email"
               name="email"
               onChange={ (e) => setEmail(e.target.value) }

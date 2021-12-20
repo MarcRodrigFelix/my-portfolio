@@ -18,5 +18,5 @@ export const projects = [
 
 export const skills = 
 [
-  'Javascript', 'Ruby', 'React', 'Sqlite'
+  'Ruby', 'Javascript', 'Ruby on Rails', 'Sinatra', 'Redux', 'ReactJS', 'HTML', 'CSS', 'SQL', 'GitHub', 'NPM'
 ]
