@@ -8,7 +8,7 @@ export const projects = [
   },
   {
     title: 'U Should Play',
-    description: 'SPA(Single Page Application) where users can share games they’ve enjoyed so others can experience them.',
+    description: 'SPA(Single Page Application) where users can share games they have enjoyed so others can experience them.',
     image: 'IMAGE',
     subtitle: 'Developed with Javascript, Rails API, HTML, CSS.',
     link: 'https://github.com/MarcRodrigFelix/u_should_play'
@@ -16,7 +16,7 @@ export const projects = [
   {
     title: 'Labs \'n Things',
     description: 'Application to keep track of Dr. appointments and Lab visits.',
-    image: 'IMAGE',
+    image: 'https://media.giphy.com/media/JDhuE2yE5tkC9mXAzg/giphy.gif',
     subtitle: 'Built with Ruby on Rails, HTML, CSS',
     link: 'https://github.com/MarcRodrigFelix/labs-and-things'
   },
