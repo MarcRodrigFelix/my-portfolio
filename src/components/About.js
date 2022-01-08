@@ -7,9 +7,9 @@ function About() {
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">Hello, My name is Marcos Rodriguez.
-            <br className="hidden lg:inline-block"/>I am a Fullstack Engineer.
+            <br className="hidden lg:inline-block"/>I am a Fullstack Developer.
           </h1>
-          <p className="mb-8 leading-relaxed">I am a full-Stack engineer experienced with Ruby and Javascript. A diligent and efficient problem solver. That is always willing to learn more and go beyond my realm of knowledge. Although I am more than capable of creating Full-Stack apps, I would say that I am much more enthusiastic about Back-End development. Let's connect if you want to learn more about me!</p>
+          <p className="mb-8 leading-relaxed">I am a full-Stack developer, with a dedicated passion for backend development. Currently expanding my knowledge.</p>
           <div className="flex justify-center">
             <a 
               href='#projects'
