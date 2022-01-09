@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Track My Games',
     description: 'Game tracking app that will help keep track of games a user is currently playing.',
-    image: 'IMAGE',
+    image: 'https://media.giphy.com/media/G8EX0ns9BRJkYF1alv/giphy.gif',
     subtitle: 'Built with Ruby, ReactJS, Redux, and Bootstrap for React.',
     link: 'https://github.com/MarcRodrigFelix/track-my-games-backend'
   },
