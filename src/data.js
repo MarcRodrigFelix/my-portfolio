@@ -9,7 +9,7 @@ export const projects = [
   {
     title: 'U Should Play',
     description: 'SPA(Single Page Application) where users can share games they have enjoyed so others can experience them.',
-    image: 'IMAGE',
+    image: 'https://media.giphy.com/media/LrGAEPeVEut5N8gqBO/giphy.gif',
     subtitle: 'Developed with Javascript, Rails API, HTML, CSS.',
     link: 'https://github.com/MarcRodrigFelix/u_should_play'
   },
