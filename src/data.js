@@ -20,13 +20,13 @@ export const projects = [
     subtitle: 'Built with Ruby on Rails, HTML, CSS',
     link: 'https://github.com/MarcRodrigFelix/labs-and-things'
   },
-  // {
-  //   title: 'Your Favorite Games',
-  //   description: 'iste nostrum cupiditate voluptas',
-  //   image: 'IMAGE',
-  //   subtitle: 'consectetur adipisicing elilaborum',
-  //   link: 'https://github.com/MarcRodrigFelix/your-favorite-games'
-  // },
+  {
+    title: 'Your Favorite Games',
+    description: 'iste nostrum cupiditate voluptas',
+    image: 'https://media.giphy.com/media/UKAYqq2aNNnhLQdu7D/giphy.gif',
+    subtitle: 'consectetur adipisicing elilaborum',
+    link: 'https://github.com/MarcRodrigFelix/your-favorite-games'
+  },
   // {
   //   title: 'NBA Teams',
   //   description: 'Ruby Gem. Can view any NBA team and its roster within terminal',
