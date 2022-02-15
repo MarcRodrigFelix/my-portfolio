@@ -7,9 +7,9 @@ function Contact() {
   const [ email, setEmail ] = React.useState('');
   const [ message, setMessage ] = React.useState('');
 
-console.log(name)
-console.log(email)
-console.log(message)
+// console.log(name)
+// console.log(email)
+// console.log(message)
 
   function encode(data) {
     return Object.keys(data)

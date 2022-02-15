@@ -16,10 +16,10 @@ function Navbar() {
           <a href="https://github.com/MarcRodrigFelix" className="mr-5 hover:text-white">Github</a>
           <a href="https://www.linkedin.com/in/marcos-rodriguez-felix/" className="mr-5 hover:text-white">LinkedIn</a>
         </nav>
-        <a href="#contact" className="inline-flex items-center bg-black-coffee border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+        {/* <a href="#contact" className="inline-flex items-center bg-black-coffee border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
           <ArrowRightIcon className="w-4 h-4 ml-1"/>
           Hire Me
-          </a>
+          </a> */}
       </div>
     </header>
   )
