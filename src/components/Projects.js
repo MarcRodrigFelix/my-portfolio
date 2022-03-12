@@ -5,11 +5,11 @@ import { projects } from '../data.js';
 
 function Projects() {
   return (
-    <section id='projects' className="text-gray-400 bg-black-coffee body-font">
+    <section id='projects' className="text-dark-red-brown bg-cyan-blue body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
         <CodeIcon className="mx-auto inline-block w-10 mb-4" />
-          <h1  className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">Projects I have built
+          <h1  className="sm:text-4xl text-3xl font-medium title-font mb-4">Projects I have built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Here are the few projects I have built on my own. Still working on projects constantly. Will keep updating as they come.
