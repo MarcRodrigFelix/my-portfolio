@@ -13,7 +13,7 @@ function About() {
           <div className="flex justify-center">
             <a 
               href='#projects'
-              className="inline-flex text-white bg-laurel-green border-0 py-2 px-6 focus:outline-none hover:bg-laurel-green-1 rounded text-lg">Recent Projects</a>
+              className="inline-flex text-dark-red-brown bg-light-gray border-0 py-2 px-6 focus:outline-none hover:bg-gainsboro rounded text-lg">Recent Projects</a>
             {/* <a
               href='#contact'
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Hire me / Work together</a> */}

@@ -9,7 +9,9 @@ module.exports = {
         'laurel-green': '#a4b494',
         'laurel-green-1': '#bec5ad',
         'cyan-blue': '#D9F7FA',
-        'dark-red-brown': '#8C271E'
+        'dark-red-brown': '#8C271E',
+        'light-gray': '#ABA194',
+        'gainsboro': '#D8DDDE'
       }
     },
   },
