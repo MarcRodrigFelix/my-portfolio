@@ -1,4 +1,4 @@
-import { ArrowRightIcon } from "@heroicons/react/solid";
+// import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
 
 function Navbar() {
