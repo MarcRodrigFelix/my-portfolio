@@ -12,7 +12,7 @@ function Projects() {
           <h1  className="sm:text-4xl text-3xl font-medium title-font mb-4">Projects I have built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Here are the few projects I have built on my own. Still working on projects constantly. Will keep updating as they come.
+            Here are the projects I have built while learning Rails, React, Redux, and more!
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
