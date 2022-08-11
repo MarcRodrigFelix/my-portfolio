@@ -7,7 +7,11 @@ module.exports = {
         'black-coffee': '#34252f',
         'russian-green': '#519872',
         'laurel-green': '#a4b494',
-        'laurel-green-1': '#bec5ad'
+        'laurel-green-1': '#bec5ad',
+        'cyan-blue': '#D9F7FA',
+        'dark-red-brown': '#8C271E',
+        'light-gray': '#ABA194',
+        'gainsboro': '#D8DDDE'
       }
     },
   },
