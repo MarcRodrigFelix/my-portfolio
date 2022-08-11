@@ -23,7 +23,7 @@ function About() {
           <img 
             className="object-cover object-center rounded"
             alt='me' 
-            src='https://hiring-assets.careerbuilder.com/media/attachments/careerbuilder-original-2442.jpg?1469042215'/>
+            src='https://avatars.githubusercontent.com/u/52738149?v=4'/>
         </div>
       </div>
     </section>
