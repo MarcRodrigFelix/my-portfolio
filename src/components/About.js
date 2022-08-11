@@ -9,7 +9,7 @@ function About() {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">Hello, My name is Marcos Rodriguez.
             {/* <br className="hidden lg:inline-block"/>I am a Fullstack Developer. */}
           </h1>
-          <p className="mb-8 leading-relaxed">I am a full-Stack developer, with a dedicated passion for backend development. Currently expanding my knowledge of all areas.</p>
+          <p className="mb-8 leading-relaxed">I am a full-stack developer, with a passion for backend development. Always learning!</p>
           <div className="flex justify-center">
             <a 
               href='#projects'
