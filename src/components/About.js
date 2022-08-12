@@ -1,4 +1,5 @@
 import React from "react";
+import image from "../../public/image/niceday.jpg";
 
 function About() {
 
@@ -24,7 +25,7 @@ function About() {
             className="object-cover object-center rounded"
             alt='me' 
             // src='/me-niceday.png'
-            src={require('/images/me-niceday.png')}/>
+            src={image}/>
         </div>
       </div>
     </section>
