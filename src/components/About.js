@@ -25,7 +25,7 @@ function About() {
             className="object-cover object-center rounded"
             alt='me' 
             // src='/me-niceday.png'
-            src={image}/>
+            src={require(image)}/>
         </div>
       </div>
     </section>
