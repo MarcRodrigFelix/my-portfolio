@@ -23,7 +23,7 @@ function About() {
           <img 
             className="object-cover object-center rounded"
             alt='me' 
-            src='https://avatars.githubusercontent.com/u/52738149?v=4'/>
+            src='../../public/me-niceday.jpg'/>
         </div>
       </div>
     </section>
