@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../public/image/niceday.jpg";
+import image from "../../public/image/niceday.webp";
 
 function About() {
 
@@ -25,7 +25,7 @@ function About() {
             className="object-cover object-center rounded"
             alt='me' 
             // src='/me-niceday.png'
-            src={require(image)}/>
+            src={image}/>
         </div>
       </div>
     </section>
