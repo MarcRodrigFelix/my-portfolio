@@ -23,7 +23,7 @@ function About() {
           <img 
             className="object-cover object-center rounded"
             alt='me' 
-            src='../../public/me-niceday.jpg'/>
+            src='/me-niceday.png'/>
         </div>
       </div>
     </section>
