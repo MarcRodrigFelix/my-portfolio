@@ -1,3 +1,5 @@
+// import rubyLogo from './ruby-logo.jpg'
+
 export const projects = [
   {
     title: 'Track My Games',
@@ -38,6 +40,11 @@ export const projects = [
 
 
 export const skills = 
-[
+[ 
   'Ruby', 'Javascript', 'Ruby on Rails', 'Sinatra', 'Redux', 'ReactJS', 'HTML', 'CSS', 'SQL', 'GitHub'
 ]
+
+// export const logos = 
+// [
+//   'https://www.pngitem.com/pimgs/m/12-120179_best-free-ruby-png-ruby-programming-language-logo.png', 
+// ]

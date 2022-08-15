@@ -17,6 +17,7 @@ function Skills() {
               <div key={skill} className="p-2 sm:w-1/2 w-full">
                 <div className="bg-light-gray rounded flex p-4 h-full items-center">
                   <BadgeCheckIcon className="text-green w-6 h-6 flex-shrink-0 mr-4"/>
+                  <img class="object-scale-down h-5 w-5" />
                   <span className="title-font font-medium text-white">
                     {skill}
                   </span>

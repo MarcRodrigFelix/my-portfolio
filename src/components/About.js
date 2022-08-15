@@ -1,8 +1,7 @@
 import React from "react";
-// import image from "../../public/image/niceday.webp";
+import myImage from "../me-niceday.jpg";
 
 function About() {
-console.log(image)
   return (
     <section id="about">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
@@ -22,10 +21,10 @@ console.log(image)
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img 
-            className="object-cover object-center rounded"
+            className="object-cover object-center rounded-xl"
             alt='me' 
-            // src='/me-niceday.png'
-            src='../../public/image/niceday.webp' />
+            src={myImage}
+            />
         </div>
       </div>
     </section>
