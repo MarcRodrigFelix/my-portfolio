@@ -24,6 +24,7 @@ function About() {
             className="object-cover object-center rounded-xl"
             alt='me' 
             src={myImage}
+            // src=""
             />
         </div>
       </div>
