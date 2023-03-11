@@ -1,5 +1,5 @@
 import { skills } from '../data' 
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
+import { ChipIcon } from "@heroicons/react/solid";
 import React from "react";
 import reactLogo from '../images/react.png';
 import rubyLogo from '../images/ruby.png';
@@ -34,6 +34,7 @@ function Skills() {
               <div key={skill} className="p-2 sm:w-1/2 w-full">
                 <div className="bg-light-gray rounded flex p-4 h-full items-center">
                   {/* <BadgeCheckIcon className="text-green w-6 h-6 flex-shrink-0 mr-4"/> */}
+                  {/* load each skill logo into the skills list */}
                   {skill === 'React' && <img src={reactLogo} alt="React" className="w-8 h-8 flex-shrink-0 mr-4"/>}
                   {skill === 'Ruby' && <img src={rubyLogo} alt="Ruby" className="w-6 h-6 flex-shrink-0 mr-4" />}
                   {skill === 'Sinatra' && <img src={sinatraLogo} alt="Sintra" className="w-6 h-6 flex-shrink-0 mr-4" />}
