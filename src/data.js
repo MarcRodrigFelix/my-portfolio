@@ -41,7 +41,7 @@ export const projects = [
 
 export const skills = 
 [ 
-  'Ruby', 'Javascript', 'Ruby on Rails', 'Sinatra', 'Redux', 'ReactJS', 'HTML', 'CSS', 'SQL', 'GitHub'
+  'Ruby', 'Javascript', 'Rails', 'Sinatra', 'Redux', 'React', 'HTML', 'CSS', 'SQL', 'Git / Github'
 ]
 
 // export const logos = 
