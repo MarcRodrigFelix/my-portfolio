@@ -11,7 +11,11 @@ module.exports = {
         'cyan-blue': '#D9F7FA',
         'dark-red-brown': '#8C271E',
         'light-gray': '#ABA194',
-        'gainsboro': '#D8DDDE'
+        'gainsboro': '#D8DDDE',
+        'new-grey': '#2e2e35',
+        'second-grey': '#34343b',
+        'new-white': '#dadada',
+        'warm-yellow': '#dea647',
       }
     },
   },

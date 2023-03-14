@@ -9,7 +9,7 @@ import Projects from './components/Projects';
 function App() {
   return (
     // <main className="text-gray-400 bg-black-coffee body-font">
-    <main className="text-dark-red-brown bg-cyan-blue body-font">
+    <main className="text-new-white bg-new-grey body-font">
         <Navbar /> 
         <About />
         <Skills />

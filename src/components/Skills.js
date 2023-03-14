@@ -21,10 +21,10 @@ import gitLogo from '../images/git.png';
 function Skills() {
 
   return(
-    <section id="skills">
+    <section id="skills" className='bg-second-grey'>
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
-          <ChipIcon className="w-10 inline-block mb-4"/>
+          <ChipIcon className="w-10 inline-block text-warm-yellow mb-4"/>
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4">Skills &amp; Technologies</h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Some of the languages and frameworks I have learned through my education so far. Always learning something new!</p>
         </div>
@@ -32,7 +32,7 @@ function Skills() {
           {
             skills.map((skill) => (
               <div key={skill} className="p-2 sm:w-1/2 w-full">
-                <div className="bg-light-gray rounded flex p-4 h-full items-center">
+                <div className="bg-new-grey rounded flex p-4 h-full items-center text-warm-yellow rounded">
                   {/* <BadgeCheckIcon className="text-green w-6 h-6 flex-shrink-0 mr-4"/> */}
                   {/* load each skill logo into the skills list */}
                   {skill === 'React' && <img src={reactLogo} alt="React" className="w-8 h-8 flex-shrink-0 mr-4"/>}
@@ -45,8 +45,7 @@ function Skills() {
                   {skill === 'CSS' && <img src={cssLogo} alt="CSS" className="w-6 h-6 flex-shrink-0 mr-4" />}
                   {skill === 'SQL' && <img src={sqlLogo} alt="SQL" className="w-6 h-6 flex-shrink-0 mr-4" />}
                   {skill === 'Git / Github' && <img src={gitLogo} alt="Git" className="w-6 h-6 flex-shrink-0 mr-4" />}
-                  <span className="title-font font-medium text-white">
-                    
+                  <span className="title-font font-medium">
                     {skill}
                   </span>
                 </div>
